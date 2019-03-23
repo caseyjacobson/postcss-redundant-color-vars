@@ -1,6 +1,6 @@
 {
   "name": "postcss-redundant-color-vars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PostCSS plugin that fixes a bug in safari when using custom properties in certain color declarations",
   "keywords": [
     "postcss",
