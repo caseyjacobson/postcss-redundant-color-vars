@@ -1,0 +1,32 @@
+{
+  "name": "postcss-redundant-color-vars",
+  "version": "1.0.0",
+  "description": "PostCSS plugin that fixes a bug in safari when using custom properties in certain color declarations",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "safari",
+    "custom properties",
+    "bug"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Casey Jacobson <casey6@gmail.com>",
+  "license": "MIT",
+  "repository": "caseyjacobson/postcss-redundant-color-vars",
+  "bugs": {
+    "url": "https://github.com/caseyjacobson/postcss-redundant-color-vars/issues"
+  },
+  "homepage": "https://github.com/caseyjacobson/postcss-redundant-color-vars",
+  "dependencies": {
+    "postcss": "^7.0.6"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
