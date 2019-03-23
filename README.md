@@ -1,4 +1,7 @@
-# PostCSS Redundant Color Vars [![Build Status][ci-img]][ci]
+# PostCSS Redundant Color Vars
+
+[![npm](https://img.shields.io/npm/v/postcss-redundant-color-vars.svg)](https://www.npmjs.com/package/postcss-redundant-color-vars)
+[![Build Status][ci-img]][ci]
 
 [PostCSS] plugin that fixes a [bug in safari](https://bugs.webkit.org/show_bug.cgi?id=185940) when using custom properties in certain color declarations.
 

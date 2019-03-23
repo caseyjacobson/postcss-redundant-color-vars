@@ -13,6 +13,13 @@ it('does nothing', function() {
   return run('a { border: 1px solid red; }', 'a { border: 1px solid red; }');
 });
 
+it('ignores other border declarations', function() {
+  return run(
+    'a { border-color: rgb(var(--bd)); border-top: 1px solid rgb(var(--bd)); }',
+    'a { border-color: rgb(var(--bd)); border-top: 1px solid rgb(var(--bd)); }'
+  );
+});
+
 it('adds redundant custom properties', function() {
   return run(
     'a { border: 1px solid rgb(var(--bd)); box-shadow: inset 1px 2em 3q hsla(var(--h), var(--s), var(--l), .3); }',
