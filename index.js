@@ -3,7 +3,7 @@ const postcss = require('postcss');
 module.exports = postcss.plugin('postcss-redundant-color-vars', () => root => {
   const regex = /(rgb|hsl)a?\(.*var\(--.*\)$/gm;
 
-  root.walkDecls(/border|box-shadow/, decl => {
+  root.walkDecls(/^(border|box-shadow)$/, decl => {
     const matches = decl.value.match(regex);
 
     if (matches && matches.length > 0) {
