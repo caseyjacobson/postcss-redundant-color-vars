@@ -3,8 +3,8 @@
 [PostCSS] plugin that fixes a [bug in safari](https://bugs.webkit.org/show_bug.cgi?id=185940) when using custom properties in certain color declarations.
 
 [postcss]: https://github.com/postcss/postcss
-[ci-img]: https://travis-ci.org/caseyjacobson/postcss-redundant-color-vars.svg
-[ci]: https://travis-ci.org/caseyjacobson/postcss-redundant-color-vars
+[ci-img]: https://travis-ci.com/caseyjacobson/postcss-redundant-color-vars.svg
+[ci]: https://travis-ci.com/caseyjacobson/postcss-redundant-color-vars
 
 ### Input
 
